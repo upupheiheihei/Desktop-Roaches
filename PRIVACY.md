@@ -20,7 +20,7 @@
 
 ### 删除与变更
 
-应用数据保存在你的 Mac 上。你可以退出应用后删除其本机应用数据；仅将应用拖到废纸篓不一定会清除这些数据。如需定位或删除数据，请联系支持邮箱。你也可以要求删除你主动发送的支持邮件。未来版本如改变数据处理方式，我们会更新本政策和生效日期。
+应用数据保存在你的 Mac 上。退出应用后，在“访达”按 Shift–Command–G，前往 `~/Library/Containers/local.flyfly.CockroachPet/Data/Library/Application Support/local.flyfly.CockroachPet/`，将 `memory.json` 移到废纸篓即可清除桌宠记录。旧非沙盒版本的记录可能还在 `~/Library/Application Support/local.flyfly.CockroachPet/`；[支持页面](SUPPORT.md)列有完整步骤。仅将应用拖到废纸篓不一定会清除这些数据。你也可以要求删除主动发送的支持邮件。未来版本如改变数据处理方式，我们会更新本政策和生效日期。
 
 访问托管本政策的 GitHub 页面时，GitHub 可能按其自身政策处理网站访问数据；这与应用在本机处理的数据不同。
 
@@ -40,7 +40,7 @@ If you choose to email support, we receive your email address and any text, devi
 
 ### Deletion and changes
 
-App data stays on your Mac. You can quit the app and delete its local app data; moving the app to the Trash may not remove those records. Contact support if you need help locating or deleting them. You may also ask us to delete support messages you sent voluntarily. If a future version changes how data is handled, we will update this policy and its effective date.
+App data stays on your Mac. After quitting the app, press Shift–Command–G in Finder and go to `~/Library/Containers/local.flyfly.CockroachPet/Data/Library/Application Support/local.flyfly.CockroachPet/`. Move `memory.json` to the Trash to remove the roach record. An older non-sandboxed version may also have a record at `~/Library/Application Support/local.flyfly.CockroachPet/`; see the [Support page](SUPPORT.md) for complete steps. Moving the app itself to the Trash may not remove these records. You may also ask us to delete support messages you sent voluntarily. If a future version changes how data is handled, we will update this policy and its effective date.
 
 When you visit the GitHub page hosting this policy, GitHub may process website access data under its own policies. This is separate from the app's local data handling.
 
@@ -60,6 +60,6 @@ When you visit the GitHub page hosting this policy, GitHub may process website a
 
 ### 削除と変更
 
-アプリのデータは Mac 内に保存されます。アプリを終了してからローカルのアプリデータを削除できます。アプリをゴミ箱に移すだけではデータが消えない場合があります。保存場所や削除方法についてはサポート窓口にお問い合わせください。自分で送信したサポートメールの削除も依頼できます。今後のバージョンでデータの扱いが変わる場合は、本ポリシーと適用開始日を更新します。
+アプリのデータは Mac 内に保存されます。アプリを終了し、Finder で Shift–Command–G を押して `~/Library/Containers/local.flyfly.CockroachPet/Data/Library/Application Support/local.flyfly.CockroachPet/` に移動します。`memory.json` をゴミ箱へ移すとゴキブリの記録を削除できます。以前のサンドボックスを使用しないバージョンの記録が `~/Library/Application Support/local.flyfly.CockroachPet/` に残っている場合もあります。詳しい手順は[サポートページ](SUPPORT.md)をご覧ください。アプリ自体をゴミ箱に移すだけでは記録が消えない場合があります。自分で送信したサポートメールの削除も依頼できます。今後のバージョンでデータの扱いが変わる場合は、本ポリシーと適用開始日を更新します。
 
 本ポリシーを掲載する GitHub ページにアクセスすると、GitHub が自社のポリシーに従ってウェブサイトのアクセスデータを処理する場合があります。これはアプリによる Mac 内でのデータ処理とは別です。

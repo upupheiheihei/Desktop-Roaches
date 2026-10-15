@@ -16,7 +16,17 @@
 - **投食**：从菜单栏选择投放普通食物或搞笑蟑螂药，移动鼠标选择位置，点击确认；按 Esc 可取消。
 - **退出**：从菜单栏图标选择“退出”。
 
-应用内的名字、进食记录和设置保存在本机。有关数据处理与删除，请阅读[隐私政策](PRIVACY.md)。
+### 删除本机数据
+
+这会清除所有蟑螂的名字、性格、进食次数、启用数量、外观设置和小屋位置；下次打开应用时会重新生成初始数据。
+
+1. 从菜单栏图标选择“退出”，确保应用已关闭。
+2. 打开“访达”，按 **Shift–Command–G** 打开“前往文件夹”。
+3. 粘贴 `~/Library/Containers/local.flyfly.CockroachPet/Data/Library/Application Support/local.flyfly.CockroachPet/` 并按回车。
+4. 仅将其中的 `memory.json` 移到废纸篓。如未找到该文件，说明这个位置没有可删除的桌宠记录。
+5. 如果你曾使用旧的非沙盒版本，再检查 `~/Library/Application Support/local.flyfly.CockroachPet/`，并删除其中的 `memory.json`（如果存在）。
+
+不必删除整个 `Containers` 文件夹。删除后再次启动应用会产生新的初始记录。有关其他数据处理，请阅读[隐私政策](PRIVACY.md)。
 
 ## English
 
@@ -32,7 +42,17 @@ To help us investigate, you can include the app version, macOS version, whether 
 - **Place food**: Choose regular food or joke roach bait from the menu bar, move the pointer to the desired location, and click to confirm. Press Esc to cancel.
 - **Quit**: Choose “Quit” from the menu bar icon.
 
-Names, feeding history, and settings are stored on your Mac. See the [Privacy Policy](PRIVACY.md) for data handling and deletion information.
+### Delete local data
+
+This resets all roach names, personalities, completed meal counts, active count, appearance settings, and house position. The app creates fresh default data the next time you open it.
+
+1. Choose “Quit” from the menu bar icon and make sure the app is closed.
+2. Open Finder and press **Shift–Command–G** to open “Go to Folder.”
+3. Paste `~/Library/Containers/local.flyfly.CockroachPet/Data/Library/Application Support/local.flyfly.CockroachPet/` and press Return.
+4. Move only `memory.json` to the Trash. If it is not there, this location has no saved roach record to remove.
+5. If you used an older, non-sandboxed version, also check `~/Library/Application Support/local.flyfly.CockroachPet/` and remove its `memory.json` if present.
+
+You do not need to delete the whole `Containers` folder. Opening the app again creates a new default record. See the [Privacy Policy](PRIVACY.md) for other data handling information.
 
 ## 日本語
 
@@ -48,4 +68,14 @@ Names, feeding history, and settings are stored on your Mac. See the [Privacy Po
 - **エサの設置**：メニューバーから通常のエサかジョーク用のゴキブリ薬を選び、ポインタで場所を指定してクリックします。Esc キーでキャンセルできます。
 - **終了**：メニューバーのアイコンから終了してください。
 
-名前、食事の記録、設定は Mac 内に保存されます。データの取り扱いと削除については[プライバシーポリシー](PRIVACY.md)をご覧ください。
+### Mac 内のデータを削除する
+
+削除すると、すべてのゴキブリの名前、性格、食事を終えた回数、有効にする数、表示設定、家の位置が初期化されます。次にアプリを開くと初期データが作成されます。
+
+1. メニューバーのアイコンから「終了」を選び、アプリが閉じていることを確認します。
+2. Finder を開き、**Shift–Command–G** で「フォルダへ移動」を開きます。
+3. `~/Library/Containers/local.flyfly.CockroachPet/Data/Library/Application Support/local.flyfly.CockroachPet/` を貼り付け、Return キーを押します。
+4. `memory.json` だけをゴミ箱へ移動します。ファイルがなければ、この場所に削除対象の記録はありません。
+5. 以前のサンドボックスを使用しないバージョンを使った場合は、`~/Library/Application Support/local.flyfly.CockroachPet/` も確認し、`memory.json` があれば削除します。
+
+`Containers` フォルダ全体を削除する必要はありません。アプリを再び開くと新しい初期データが作成されます。その他のデータの取り扱いは[プライバシーポリシー](PRIVACY.md)をご覧ください。
